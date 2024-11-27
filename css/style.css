@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    color: #151618;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px; ;
+}
+
+.header__inner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-width: 142px;
+padding: 30px 0;
+}
+
+.menu__list{
+    display: flex;
+    gap: 0 65px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.user-actions{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+
+}
+.user-actions__item-se{
+    margin-left: 100px;
+}
+
+.top{
+    background-image: url('../images/Group\ 91.jpg');
+background-position: bottom center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.top__inner{
+    min-height:500px ;
+color: white;
+font-family: "Cormorant", serif;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.top__title{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    max-width: 700px;
+
+}
+
+.top__text{
+    font-size: 24px;
+    margin-bottom: 48px;
+    max-width: 560px;
+}
